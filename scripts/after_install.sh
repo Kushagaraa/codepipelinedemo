@@ -8,5 +8,5 @@ rm -rf node_modules
 rm -rf build
 
 #Install_node_modules_&_Make_React_Build
-pnpm  install
-pnpm run build
+npm  install --no-audit
+npm run build
